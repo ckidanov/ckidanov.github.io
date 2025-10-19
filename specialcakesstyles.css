@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-size: 1em;
+	line-height: 1.3em;
+	font-family: Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #E94D40;
+}
+
+/* classes */
+.burntred {
+	color: #E94D40;
+}
+.navyblue {
+	color: #0C243C;
+}
+.specialcakesfont {
+	font-family: Arial, sans-serif;
+}
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+.clearboth {
+    clear: both;
+}
+
+footer {
+	background-color: #0C243C;
+	color: white;            /* text color */
+	text-align: center;      /* center the text */
+}
+
+ table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #0C243C;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f1f6f9;
+    }
